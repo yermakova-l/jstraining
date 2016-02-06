@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+body {
+    background: #005C89;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+#wrapper {
+    margin: 2em auto 0 auto;
+    width: 40%;
+}
+header {
+        background:#00476A;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: 500;
+    line-height: 2em;
+
+}
+#wallet #balance {
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    margin: 0 0 1em 0;
+    background:#CCC;
+    line-height: 60px;
+    color: gray;
+}
+
+#wallet #moneyInOut {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+#moneyInOut div {
+    text-align: center;
+    line-height: 62px;
+    width:50%;
+    height: 62px;
+    background: black;
+    color: white;
+    
+}
+
+#moneyInOut #putIn {
+    background: #ADD100;
+}
+#moneyInOut #putOut {
+    background: #8D008D;
+}
+#moneyInOut #putIn:hover {
+    background: #85A100;
+}
+#moneyInOut #putOut:hover {
+    background: #6C006C;
+} 
+#result {color: white;}
+
+
+#calc table {
+    border: 1px solid #E8F3FF;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calc table td {
+    border: 1px solid white;
+    width: 23%;
+    height: 62px;
+    text-align: center;
+}
+#calc table td:hover {
+    background: #00476A;
+}
+
+@media screen and (max-width: 600px){
+    #wrapper{
+        width: 100%;
+    }
+    
+    
+}
